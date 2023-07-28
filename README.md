@@ -15,8 +15,6 @@ npm install scrinio-react-icons
 ## Example usage
 
 ```tsx
-import React, { Component } from 'react'
-
 import { HomeIcon } from 'scrinio-react-icons'
 
 const App = () => {
@@ -29,7 +27,7 @@ const App = () => {
 }
 ```
 
-## Optional properties
+## Optional icon properties
 
 | Key           | Default         |
 | ------------- | --------------- |
