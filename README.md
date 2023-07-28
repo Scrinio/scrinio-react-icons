@@ -7,25 +7,36 @@
 ## Install
 
 ```bash
-npm install --save scrinio-react-icons
+yarn add scrinio-react-icons
+# or
+npm install scrinio-react-icons
 ```
 
-## Usage
+## Example usage
 
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'scrinio-react-icons'
-import 'scrinio-react-icons/dist/index.css'
+import { HomeIcon } from 'scrinio-react-icons'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <button type='button'>
+      <span>Ir al home</span>
+      <HomeIcon />
+    </button>
+  )
 }
 ```
+
+## Optional properties
+
+| Key           | Default         |
+| ------------- | --------------- |
+| `color`       | `scrinio color` |
+| `isActive`    | `false`         |
+| `colorActive` | `#FFF`          |
 
 ## License
 
 MIT © [Scrinio]
-Author © [JhonHDev](https://github.com/JhonHDev)
