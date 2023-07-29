@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/scrinio-react-icons.svg)](https://www.npmjs.com/package/scrinio-react-icons) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## To install
 
 ```bash
 yarn add scrinio-react-icons
@@ -27,14 +27,36 @@ const App = () => {
 }
 ```
 
+## Example usage 2
+
+```tsx
+import { useState } from 'react'
+import { HomeIcon } from 'scrinio-react-icons'
+
+const App = () => {
+  const [isActive, setIsActive] = useState(false)
+
+  const handleToggleIsActive = () => {
+    setIsActive(!isActive)
+  }
+
+  return (
+    <button onClick={handleToggleIsActive} type='button'>
+      <span>Ir al home</span>
+      <HomeIcon color='white' isActive={isActive} colorActive='purple' />
+    </button>
+  )
+}
+```
+
 ## Optional icon properties
 
-| Key           | Default         |
-| ------------- | --------------- |
-| `color`       | `scrinio color` |
-| `isActive`    | `false`         |
-| `colorActive` | `#FFF`          |
+| Property      | Default          |
+| ------------- | ---------------- |
+| `color`       | `scrinio colors` |
+| `isActive`    | `false`          |
+| `colorActive` | `#FFF`           |
 
 ## License
 
-MIT © [Scrinio]
+MIT © Scrinio
