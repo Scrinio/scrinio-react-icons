@@ -1,101 +1,75 @@
 import React from 'react'
 
 import {
-  NotificationIcon,
-  MessageIcon,
-  ProfileIcon,
-  ProfileIconSmall,
-  ActiveCarnetsIcon,
-  ActiveAccountsIcon,
-  OptionsIcon,
-  CloseIcon,
-  BlockIcon,
-  VerifiedIcon,
-  LikeIcon,
-  CommentsIcon,
-  ShareIcon,
-  SearchIcon,
-  Comments2Icon,
-  Notification2Icon,
-  Message2Icon,
-  Verified2Icon,
-  Message3Icon,
-  PhoneIcon,
-  Phone2Icon,
-  DeleteIcon,
-  EditIcon
+  GeneralUseIcon,
+  EventUserIcon,
+  StudentIcon,
+  TeacherIcon,
+  GraduateIcon,
+  AdminIcon,
+  CompanyCarnetIcon,
+  CompanyEventIcon,
+  EventMsgIcon,
+  WhatsAppIcon,
+  EventPhoneIcon,
+  LocationIcon,
+  PencilEditIcon,
+  EventMsg2Icon,
+  OfferActiveIcon,
+  LocationBigIcon
 } from 'scrinio-react-icons'
 
 const App = () => {
   return (
     <>
-      <NotificationIcon />
+      <GeneralUseIcon />
       <br />
       <br />
-      <MessageIcon />
+      <EventUserIcon />
       <br />
       <br />
-      <ProfileIcon />
+      <StudentIcon />
       <br />
       <br />
-      <ProfileIconSmall />
+      <TeacherIcon />
       <br />
       <br />
-      <ActiveCarnetsIcon />
+      <GraduateIcon />
       <br />
       <br />
-      <ActiveAccountsIcon />
+      <AdminIcon />
       <br />
       <br />
-      <OptionsIcon />
+      <CompanyCarnetIcon />
       <br />
       <br />
-      <CloseIcon />
+      <CompanyEventIcon />
       <br />
       <br />
-      <BlockIcon />
+      <EventMsgIcon />
       <br />
       <br />
-      <VerifiedIcon />
+      <WhatsAppIcon />
       <br />
       <br />
-      <LikeIcon />
+      <EventPhoneIcon />
       <br />
       <br />
-      <CommentsIcon />
+      <LocationIcon />
       <br />
       <br />
-      <ShareIcon />
+      <PencilEditIcon />
       <br />
       <br />
-      <SearchIcon />
+      <EventMsg2Icon />
       <br />
       <br />
-      <Comments2Icon />
+      <OfferActiveIcon />
       <br />
       <br />
-      <Notification2Icon />
+      <LocationBigIcon />
       <br />
       <br />
-      <Message2Icon />
-      <br />
-      <br />
-      <Verified2Icon />
-      <br />
-      <br />
-      <Message3Icon />
-      <br />
-      <br />
-      <PhoneIcon />
-      <br />
-      <br />
-      <Phone2Icon />
-      <br />
-      <br />
-      <DeleteIcon />
-      <br />
-      <br />
-      <EditIcon />
     </>
   )
 }
