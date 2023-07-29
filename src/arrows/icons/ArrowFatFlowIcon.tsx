@@ -1,12 +1,16 @@
 import * as React from 'react'
 
-interface MessageIconProps {
+interface ArrowFatFlowIconProps {
   color?: string
   isActive?: boolean
   colorActive?: string
 }
 
-const MessageIcon = ({ isActive, color, colorActive }: MessageIconProps) => {
+const ArrowFatFlowIcon = ({
+  isActive,
+  color,
+  colorActive
+}: ArrowFatFlowIconProps) => {
   const defaultColor = 'rgba(95,0,252,0.96)'
 
   const customActiveColor = colorActive || '#FFF'
@@ -30,4 +34,4 @@ const MessageIcon = ({ isActive, color, colorActive }: MessageIconProps) => {
   )
 }
 
-export default MessageIcon
+export default ArrowFatFlowIcon

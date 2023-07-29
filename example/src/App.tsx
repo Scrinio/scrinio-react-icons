@@ -1,43 +1,101 @@
 import React from 'react'
 
 import {
-  ArrowRightIconSmall,
-  ArrowLeftIconSmall,
-  ArrowRightIcon,
-  ArrowUpIcon,
-  ArrowFatDownIcon,
-  ArrowMediumUpIcon,
-  ArrowMediumFatLeftIcon,
-  ArrowUpIconSmall
+  NotificationIcon,
+  MessageIcon,
+  ProfileIcon,
+  ProfileIconSmall,
+  ActiveCarnetsIcon,
+  ActiveAccountsIcon,
+  OptionsIcon,
+  CloseIcon,
+  BlockIcon,
+  VerifiedIcon,
+  LikeIcon,
+  CommentsIcon,
+  ShareIcon,
+  SearchIcon,
+  Comments2Icon,
+  Notification2Icon,
+  Message2Icon,
+  Verified2Icon,
+  Message3Icon,
+  PhoneIcon,
+  Phone2Icon,
+  DeleteIcon,
+  EditIcon
 } from 'scrinio-react-icons'
 
 const App = () => {
   return (
     <>
-      <ArrowRightIconSmall color='purple' />
+      <NotificationIcon />
       <br />
       <br />
-      <ArrowLeftIconSmall color='purple' />
+      <MessageIcon />
       <br />
       <br />
-      <ArrowRightIcon color='purple' />
+      <ProfileIcon />
       <br />
       <br />
-      <ArrowUpIcon color='purple' />
+      <ProfileIconSmall />
       <br />
       <br />
-      <ArrowFatDownIcon color='purple' />
+      <ActiveCarnetsIcon />
       <br />
       <br />
-      <ArrowMediumUpIcon color='purple' />
+      <ActiveAccountsIcon />
       <br />
       <br />
-      <ArrowMediumFatLeftIcon color='purple' />
+      <OptionsIcon />
       <br />
       <br />
-      <ArrowUpIconSmall color='purple' />
+      <CloseIcon />
       <br />
       <br />
+      <BlockIcon />
+      <br />
+      <br />
+      <VerifiedIcon />
+      <br />
+      <br />
+      <LikeIcon />
+      <br />
+      <br />
+      <CommentsIcon />
+      <br />
+      <br />
+      <ShareIcon />
+      <br />
+      <br />
+      <SearchIcon />
+      <br />
+      <br />
+      <Comments2Icon />
+      <br />
+      <br />
+      <Notification2Icon />
+      <br />
+      <br />
+      <Message2Icon />
+      <br />
+      <br />
+      <Verified2Icon />
+      <br />
+      <br />
+      <Message3Icon />
+      <br />
+      <br />
+      <PhoneIcon />
+      <br />
+      <br />
+      <Phone2Icon />
+      <br />
+      <br />
+      <DeleteIcon />
+      <br />
+      <br />
+      <EditIcon />
     </>
   )
 }

@@ -6,6 +6,7 @@ import ArrowFatDownIcon from './icons/ArrowFatDownIcon'
 import ArrowMediumUpIcon from './icons/ArrowMediumUpIcon'
 import ArrowMediumFatLeftIcon from './icons/ArrowMediumFatLeftIcon'
 import ArrowUpIconSmall from './icons/ArrowUpIconSmall'
+import ArrowFatDownIconSmall from './icons/ArrowFatDownIconSmall'
 
 export {
   ArrowRightIconSmall,
@@ -15,5 +16,6 @@ export {
   ArrowFatDownIcon,
   ArrowMediumUpIcon,
   ArrowMediumFatLeftIcon,
-  ArrowUpIconSmall
+  ArrowUpIconSmall,
+  ArrowFatDownIconSmall
 }

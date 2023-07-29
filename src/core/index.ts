@@ -13,7 +13,6 @@ import SurveyIcon from './icons/SurveyIcon'
 import TopicIcon from './icons/TopicIcon'
 import ChatIcon from './icons/ChatIcon'
 import ForumsIcon from './icons/ForumsIcon'
-import MessageIcon from './icons/MessageIcon'
 import SecurityIcon from './icons/SecurityIcon'
 import DamagesIcon from './icons/DamagesIcon'
 import ConfigIcon from './icons/ConfigIcon'
@@ -34,7 +33,6 @@ export {
   TopicIcon,
   ChatIcon,
   ForumsIcon,
-  MessageIcon,
   SecurityIcon,
   DamagesIcon,
   ConfigIcon
