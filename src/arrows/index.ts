@@ -1,6 +1,19 @@
+import ArrowRightIconSmall from './icons/ArrowRightIconSmall'
+import ArrowLeftIconSmall from './icons/ArrowLeftIconSmall'
 import ArrowRightIcon from './icons/ArrowRightIcon'
-import ArrowLeftIcon from './icons/ArrowLeftIcon'
 import ArrowUpIcon from './icons/ArrowUpIcon'
-import ArrowDownIcon from './icons/ArrowDownIcon'
+import ArrowFatDownIcon from './icons/ArrowFatDownIcon'
+import ArrowMediumUpIcon from './icons/ArrowMediumUpIcon'
+import ArrowMediumFatLeftIcon from './icons/ArrowMediumFatLeftIcon'
+import ArrowUpIconSmall from './icons/ArrowUpIconSmall'
 
-export { ArrowRightIcon, ArrowLeftIcon, ArrowUpIcon, ArrowDownIcon }
+export {
+  ArrowRightIconSmall,
+  ArrowLeftIconSmall,
+  ArrowRightIcon,
+  ArrowUpIcon,
+  ArrowFatDownIcon,
+  ArrowMediumUpIcon,
+  ArrowMediumFatLeftIcon,
+  ArrowUpIconSmall
+}
