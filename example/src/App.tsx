@@ -1,85 +1,33 @@
 import React from 'react'
 
 import {
-  OfferCompanyIcon,
-  OfferChargeIcon,
-  OfferModalityIcon,
-  OfferLocationIcon,
-  OfferDateIcon,
-  OfferMsgIcon,
-  AvailableOffersIcon,
-  OfferSalaryIcon,
-  OfferExperienceIcon,
-  OfferLinkIcon,
-  AttachIcon,
-  PlusIcon,
-  OfferCalendarIcon,
-  EnvironmentIcon,
-  EducationIcon,
-  EntrepreneurshipIcon,
-  DegreeIcon,
-  TechnologyIcon,
-  CourseIcon
+  PlusBigIcon,
+  EyeIcon,
+  IntroductionIcon,
+  EditSurveyIcon,
+  DestinationIcon,
+  RoleIcon
 } from 'scrinio-react-icons'
 
 const App = () => {
   return (
     <>
-      <OfferCompanyIcon />
+      <PlusBigIcon />
       <br />
       <br />
-      <OfferChargeIcon />
+      <EyeIcon />
       <br />
       <br />
-      <OfferModalityIcon />
+      <IntroductionIcon />
       <br />
       <br />
-      <OfferLocationIcon />
+      <EditSurveyIcon />
       <br />
       <br />
-      <OfferDateIcon />
+      <DestinationIcon />
       <br />
       <br />
-      <OfferMsgIcon />
-      <br />
-      <br />
-      <AvailableOffersIcon />
-      <br />
-      <br />
-      <OfferSalaryIcon />
-      <br />
-      <br />
-      <OfferExperienceIcon />
-      <br />
-      <br />
-      <OfferLinkIcon />
-      <br />
-      <br />
-      <AttachIcon />
-      <br />
-      <br />
-      <PlusIcon />
-      <br />
-      <br />
-      <OfferCalendarIcon />
-      <br />
-      <br />
-      <EnvironmentIcon />
-      <br />
-      <br />
-      <EducationIcon />
-      <br />
-      <br />
-      <EntrepreneurshipIcon />
-      <br />
-      <br />
-      <DegreeIcon />
-      <br />
-      <br />
-      <TechnologyIcon />
-      <br />
-      <br />
-      <CourseIcon />
+      <RoleIcon />
     </>
   )
 }
