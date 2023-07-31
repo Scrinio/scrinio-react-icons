@@ -1,75 +1,85 @@
 import React from 'react'
 
 import {
-  GeneralUseIcon,
-  EventUserIcon,
-  StudentIcon,
-  TeacherIcon,
-  GraduateIcon,
-  AdminIcon,
-  CompanyCarnetIcon,
-  CompanyEventIcon,
-  EventMsgIcon,
-  WhatsAppIcon,
-  EventPhoneIcon,
-  LocationIcon,
-  PencilEditIcon,
-  EventMsg2Icon,
-  OfferActiveIcon,
-  LocationBigIcon
+  OfferCompanyIcon,
+  OfferChargeIcon,
+  OfferModalityIcon,
+  OfferLocationIcon,
+  OfferDateIcon,
+  OfferMsgIcon,
+  AvailableOffersIcon,
+  OfferSalaryIcon,
+  OfferExperienceIcon,
+  OfferLinkIcon,
+  AttachIcon,
+  PlusIcon,
+  OfferCalendarIcon,
+  EnvironmentIcon,
+  EducationIcon,
+  EntrepreneurshipIcon,
+  DegreeIcon,
+  TechnologyIcon,
+  CourseIcon
 } from 'scrinio-react-icons'
 
 const App = () => {
   return (
     <>
-      <GeneralUseIcon />
+      <OfferCompanyIcon />
       <br />
       <br />
-      <EventUserIcon />
+      <OfferChargeIcon />
       <br />
       <br />
-      <StudentIcon />
+      <OfferModalityIcon />
       <br />
       <br />
-      <TeacherIcon />
+      <OfferLocationIcon />
       <br />
       <br />
-      <GraduateIcon />
+      <OfferDateIcon />
       <br />
       <br />
-      <AdminIcon />
+      <OfferMsgIcon />
       <br />
       <br />
-      <CompanyCarnetIcon />
+      <AvailableOffersIcon />
       <br />
       <br />
-      <CompanyEventIcon />
+      <OfferSalaryIcon />
       <br />
       <br />
-      <EventMsgIcon />
+      <OfferExperienceIcon />
       <br />
       <br />
-      <WhatsAppIcon />
+      <OfferLinkIcon />
       <br />
       <br />
-      <EventPhoneIcon />
+      <AttachIcon />
       <br />
       <br />
-      <LocationIcon />
+      <PlusIcon />
       <br />
       <br />
-      <PencilEditIcon />
+      <OfferCalendarIcon />
       <br />
       <br />
-      <EventMsg2Icon />
+      <EnvironmentIcon />
       <br />
       <br />
-      <OfferActiveIcon />
+      <EducationIcon />
       <br />
       <br />
-      <LocationBigIcon />
+      <EntrepreneurshipIcon />
       <br />
       <br />
+      <DegreeIcon />
+      <br />
+      <br />
+      <TechnologyIcon />
+      <br />
+      <br />
+      <CourseIcon />
     </>
   )
 }
