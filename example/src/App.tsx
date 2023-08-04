@@ -6,7 +6,8 @@ import {
   IntroductionIcon,
   EditSurveyIcon,
   DestinationIcon,
-  RoleIcon
+  RoleIcon,
+  ArrowFatFlowIcon
 } from 'scrinio-react-icons'
 
 const App = () => {
@@ -28,6 +29,9 @@ const App = () => {
       <br />
       <br />
       <RoleIcon />
+      <br />
+      <br />
+      <ArrowFatFlowIcon />
     </>
   )
 }
